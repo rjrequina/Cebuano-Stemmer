@@ -15,7 +15,7 @@ def read_file(name=None, start=None, end=None, strip=False, dict_format=False, d
     if name:
         
         name = sys.prefix + '/' + name
-        sys.path.insert(0, name)
+        # sys.path.insert(0, name)
 
         f = open(name, "r")
         contents = []
