@@ -2,7 +2,6 @@ from copy import deepcopy
 import string
 import time
 
-from repos import suffixes, prefixes
 from cebdict import dictionary
 
 import sys
