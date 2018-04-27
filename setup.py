@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
   name = 'cebstemmer',
   packages = ['cebstemmer'],
-  version = '1.2',
+  version = '1.3',
   description = "A Cebuano Stemmer based on Krovetz Algorithm",
   author = 'Arjemariel Requina',
   author_email = 'rjrequina@gmail.com',
@@ -18,7 +18,5 @@ setup(
   		'cebstemmer/data/SUFF.txt',
   	])
   ],
-  install_requires=[
-   'cebdict'
-  ]
+  install_requires=['cebdict']
 )
