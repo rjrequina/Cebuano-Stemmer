@@ -43,13 +43,35 @@ def read_file(name=None, start=None, end=None, strip=False, dict_format=False, d
 Fetch prefixes
 '''
 def prefixes():
-    return read_file('data/PREF.txt', strip=True)
+
+    return ['gipang', 'pinaka', 'isigka', 'inigka',
+            'tigpa', 'pagka', 'panag', 'manga',
+            'magka', 'ting', 'tagi', 'taga',
+            'pina', 'pani', 'pang', 'pala',
+            'ning', 'nang', 'naka', 'mang',
+            'mala', 'maki', 'maka', 'kina',
+            'hing', 'ging', 'nihi', 'gihi',
+            'nahi', 'kada', 'tig', 'tag',
+            'sag', 'pan', 'pag', 'nag',
+            'man', 'mag', 'ika', 'hin',
+            'pa', 'ni', 'na', 'mo', 'ma', 
+            'ka', 'in', 'ig', 'hi', 'gi',
+            'ga', 'ba', 'mu' ]
 
 '''
 Fetch suffixes
 '''
 def suffixes():
-    return read_file('data/SUFF.txt', strip=True)
+    return ['syon', 'ista', 'ante', 'anan', 
+            'non', 'ito', 'ita', 'ing', 
+            'hon', 'hay', 'han', 'ero',
+            'era', 'dor', 'ano', 'ado',
+            'ada', 'oy', 'ot', 'on',
+            'ng', 'it', 'hi', 'ha',
+            'es', 'da', 'ay', 'ar', 
+            'an', 'or', 'y', 't', 
+            's', 'o', 'k', 'i',
+            'g', 'a']
 
 '''
 Wrapper for each word with its properties
