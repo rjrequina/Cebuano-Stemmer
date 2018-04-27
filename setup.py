@@ -17,5 +17,8 @@ setup(
   		'cebstemmer/data/PREF.txt', 
   		'cebstemmer/data/SUFF.txt',
   	])
+  ],
+  install_requires=[
+   'cebdict'
   ]
 )
