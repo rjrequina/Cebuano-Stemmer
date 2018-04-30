@@ -5,6 +5,9 @@ Cebuano Stemmer based on Krovetz Algorithm
 * `pip install cebstemmer` or
 * inside the folder run `python setup.py install`
 
+## Requirements
+* `cebdict>=2.1`
+
 ## Functions
 * stem_word(word='', as_object=False)
    - Accepts a Cebuano word and returns the morphemes of the word
