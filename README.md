@@ -21,7 +21,6 @@ Number of entries |
    - OPTION:
         as_object
           - When true, Word object is returned.
-          
           ```
           class Word:
             def __init__(self, text=None):
