@@ -1,11 +1,8 @@
 # Cebuano-Stemmer
 Cebuano Stemmer based on Krovetz Algorithm
 
-
-Number of entries |
---- |
-16587 |
-
+## Evaluation
+![png-2](https://user-images.githubusercontent.com/24803247/39425959-649b0ba4-4cb0-11e8-94b5-b1aacd3174d6.PNG)
 
 ## Installation
 * `pip install cebstemmer` or
@@ -54,9 +51,5 @@ Output:
 
 ## References
 
-* Wolff, J. (1972). A dictionary of Cebuano Visayan (Vol. 1). Cornell University, 
-       Southeast Asia Program and Linguistic Society of the Philippines.
-
-* Wolff, J. (1972). A dictionary of Cebuano Visayan (Vol. 2). Cornell University,  
-                  Southeast Asia Program and Linguistic Society of the Philippines.
+* Krovetz, R. (1993). Viewing morphology as an inference process (pp. 191–202). ACM Press. https://doi.org/10.1145/160688.160718
 
