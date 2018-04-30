@@ -1,9 +1,6 @@
 # Cebuano-Stemmer
 Cebuano Stemmer based on Krovetz Algorithm
 
-## Evaluation
-![png-2](https://user-images.githubusercontent.com/24803247/39425959-649b0ba4-4cb0-11e8-94b5-b1aacd3174d6.PNG)
-
 ## Installation
 * `pip install cebstemmer` or
 * inside the folder run `python setup.py install`
@@ -48,6 +45,9 @@ Output:
   buang
   on
 ```
+
+## Evaluation
+![png-2](https://user-images.githubusercontent.com/24803247/39425959-649b0ba4-4cb0-11e8-94b5-b1aacd3174d6.PNG)
 
 ## References
 
