@@ -1,9 +1,6 @@
 # Cebuano-Stemmer
 Cebuano Stemmer based on Krovetz Algorithm
-```
-Note:
-    Only prefixes, suffixes, infixes, and reduplication is covered
-```
+`Note: Only prefixes, suffixes, infixes, and reduplication is covered`
 
 ## Installation
 * `pip install cebstemmer` or
