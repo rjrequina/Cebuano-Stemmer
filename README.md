@@ -39,7 +39,9 @@ Number of entries |
 from cebstemmer import stemmer
 
 stemmer.stem_word('buangon')
-Output: ['buangon', None, None, on]
+
+Output: 
+   ['buangon', None, None, on]
 
 word = stemmer.stem_word('buangon', as_object=True)
 print(word.root)
